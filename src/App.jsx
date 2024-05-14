@@ -35,12 +35,12 @@ function App() {
       <div className='w-full block'>
         <Header />
         <main>
-        TODO:{/*   <Outlet /> */}
+        TODO{/*   <Outlet /> */}
         </main>
         <Footer />
       </div>
     </div>
-  ) : null //can change here based on yourself (this is option to show when there is loading going on)
+  ) : null//can change here based on yourself (this is option to show when there is loading going on)
 }
 
 export default App
