@@ -1,4 +1,4 @@
-import conf from '../conf/conf.js'; //accessing the env variable from .env file
+import conf from '../config/config'; //accessing the env variable from .env file
 import { Client, ID, Databases, Storage, Query } from "appwrite";
 
 // After doing authentication(in auth.js file), we now make services for appwrite

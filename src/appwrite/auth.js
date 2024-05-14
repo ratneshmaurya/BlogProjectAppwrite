@@ -1,4 +1,4 @@
-import conf from '../conf/conf.js'; //importing the env varibale from config file. ( used in constructor for creating clients)
+import conf from '../config/config'; //importing the env varibale from config file. ( used in constructor for creating clients)
 import { Client, Account, ID } from "appwrite"; //importing functions from appwrite library
 
 //we make class, so that on creating object of it, we can easily access every function of it with .(dot) operator
